@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Tea House</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="">
+    <!-- Banner Section -->
+    <section class="grid grid-cols-1 md:grid-cols-2  items-center mx-40 sm:mx-20 my-20">
+        <div class="banner-left space-y-[30px] ">
+            <h1 class="font-bold text-5xl md:text-[80px]">It's good <br> tea time at The <br>Tea House</h1>
+            <p class="text-[18px] text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To
+                Your
+                Taste Buds.</p>
+            <button
+                class="h-14 bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-white font-bold py-2 px-6 rounded-2xl">
+                Explore More <i class="fa-solid fa-arrow-right inline-block -rotate-45"></i>
+            </button>
+        </div>
+        <div class="banner-right relative">
+            <img src="./images/banner.png" alt="">
+            <div
+                class="flex items-center gap-4 shadow-lg shadow-[#777777] rounded-lg w-max px-4 py-2 absolute bottom-5 left-20 bg-white">
+                <img src="./images/star.png" alt="">
+                <div>
+                    <p class="text-3xl font-bold">5.00</p>
+                    <p class="text-[18px] text-[#777777]">Trust Pilot Ratings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Features Section -->
+    <section class="mx-40 sm:mx-20 my-20 space-y-10">
+        <h2 class="text-4xl font-bold text-center mb-10">Our Featured Products</h2>
+        <p class="text-center text-gray-600 mb-10 w-[70%] mx-auto">There are many variations of passages of Lorem Ipsum
+            available, but
+            the majority have suffered alteration in some form, by injected humour, or randomised words which don't look
+            even slightly believable. </p>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+            <!-- Feature 1 -->
+            <div class="feature-card bg-gradient-to-b from-[#F5F5F5] to-white p-6 rounded-lg text-center">
+                <img src="./images/tea-1.png" alt="Wide Variety of Teas" class="mx-auto mb-4">
+                <h3 class="text-xl font-semibold mb-2">Wide Variety of Teas</h3>
+                <p class="text-gray-600">Explore our extensive collection of teas from around the world, including
+                    green,
+                    black, herbal, and specialty blends.</p>
+            </div>
+            <!-- Feature 2 -->
+            <div class="feature-card bg-gradient-to-b from-[#F5F5F5] to-white p-6 rounded-lg text-center">
+                <img src="./images/tea-2.png" alt="Premium Quality" class="mx-auto mb-4">
+                <h3 class="text-xl font-semibold mb-2">Premium Quality</h3>
+                <p class="text-gray-600">We source our teas from trusted growers and suppliers to ensure you receive the
+                    highest quality products.</p>
+            </div>
+            <!-- Feature 3 -->
+            <div class="feature-card bg-gradient-to-b from-[#F5F5F5] to-white p-6 rounded-lg text-center">
+                <img src="./images/tea-3.png" alt="Sustainable Practices" class="mx-auto mb-4">
+                <h3 class="text-xl font-semibold mb-2">Sustainable Practices</h3>
+                <p class="text-gray-600">We are committed to sustainability, using eco-friendly packaging and supporting
+                    ethical sourcing practices.</p>
+            </div>
+            <!-- Feature-4  -->
+            <div class="feature-card bg-gradient-to-b from-[#F5F5F5] to-white p-6 rounded-lg text-center">
+                <img src="./images/tea-4.png" alt="Fresh Ingredients" class="mx-auto mb-4">
+                <h3 class="text-xl font-semibold mb-2">Fresh Ingredients</h3>
+                <p class="text-gray-600">We use only the freshest ingredients in our tea blends, ensuring a superior
+                    taste and aroma.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Great Tea Section -->
+    <section class="grid grid-cols-1 md:grid-cols-2 items-center mx-40 sm:mx-20 my-20 gap-10">
+        <div class="great-left grid grid-cols-2 grid-rows-3 gap-4">
+            <div class="  rounded-2xl bg-linear-to-r from-[#FF0000] to-[#FF8938] opacity-10"> </div>
+            <div class="row-span-2 bg-linear-to-r from-[#fbe0e0] to-[#fef3eb]  flex justify-center rounded-2xl">
+                <img src="./images/fresh-1.png" alt="">
+            </div>
+            <div class="row-span-2 bg-linear-to-r from-[#f4f0f0] to-[#f7f6f6]  flex justify-center rounded-2xl">
+                <img src="./images/fresh-2.png" alt="">
+            </div>
+            <div class=" bg-linear-to-r from-[#757575] to-[#c3baba] opacity-10 rounded-2xl"></div>
+        </div>
+        <div class="great-right space-y-4">
+            <h1 class="text-4xl font-bold mb-4">Great Tea, Freshly Presented</h1>
+            <p class="text-gray-600">
+                The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It
+                represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply
+                appreciated by its custoers because of good words of mouth and unique customized service orginated from
+                Taiwan.</p>
+            <h1 class="text-2xl font-bold">Unique Taste</h1>
+            <p class="text-gray-600">
+                A Unique and different style from other teapots gives a luxurious and minimalist impression
+            </p>
+            <h1 class="text-2xl font-bold">Premium Quality</h1>
+            <p class="text-gray-600">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+        </div>
+    </section>
+    <!-- Meet client Section -->
+    <section
+        class="grid grid-cols-1 md:grid-cols-2 items-center mx-40 sm:mx-20 my-20 gap-10 bg-linear-to-r from-[#ff8938] to-[#ff0000] rounded-2xl text-white">
+        <div class="meet-left mx-40 sm:mx-20 my-20 space-y-10">
+            <h2 class="text-4xl font-bold mb-10">Meet Our Super Clients</h2>
+            <p class="text-gray-600 mb-10 w-[70%] text-white">There are many variations of passages of Lorem
+                Ipsum
+                available, but the majority have suffered alteration in some form, by injected humour, or randomised
+                words which don't look even slightly believable.
+            </p>
+            <button class="bg-white text-[#ff8938] font-bold py-2 px-4 rounded-lg hover:bg-gray-200">
+                <span class="bg-linear-to-r from-[#ff8938] to-[#ff0000] bg-clip-text text-transparent">
+                    Show All
+                </span>
+            </button>
+        </div>
+        <div class="meet-right flex flex-col items-center gap-10 relative py-[100px] px-3">
+            <div class="bg-white rounded-2xl w-[60%] p-10 space-y-4 relative opacity-20">
+
+                <img class="absolute -top-6 -left-6 bg-white p-1 rounded-full" src="./images/client.png" alt="">
+                <p class="text-gray-700 text-2xl font-bold">John Doe</p>
+                <p class="text-gray-500">CEO, Company Name</p>
+                <p class="text-gray-500 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            </div>
+            <div
+                class="bg-white rounded-2xl w-[60%] p-10 space-y-4 relative md:absolute md:-left-[100px] md:top-[240px] z-20">
+
+                <img class="absolute -top-6 -left-6 bg-white p-1 rounded-full" src="./images/client.png" alt="">
+                <p class="text-gray-700 text-2xl font-bold">John Doe</p>
+                <p class="text-gray-500">CEO, Company Name</p>
+                <p class="text-gray-500 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                <img class="absolute bottom-6 right-6" src="./images/circles.png" alt="">
+            </div>
+            <div class="bg-white rounded-2xl w-[60%] p-10 space-y-4 relative opacity-20">
+
+                <img class="absolute -top-6 -left-6 bg-white p-1 rounded-full" src="./images/client.png" alt="">
+                <p class="text-gray-700 text-2xl font-bold">John Doe</p>
+                <p class="text-gray-500">CEO, Company Name</p>
+                <p class="text-gray-500 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="bg-[#feeaf6] py-10 items-center justify-center">
+        <div class="footer-1 flex flex-col md:flex-row items-center gap-10 mx-40 sm:mx-20 justify-around">
+            <div>
+                <img src="./images/cup.png" alt="">
+            </div>
+            <div class="flex justify-between gap-[150px]">
+                <p class="font-bold">Discover the perfect cup.</p>
+                <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-white font-bold px-6 py-2 rounded-2xl">
+                    Get Started
+                </button>
+            </div>
+
+        </div>
+        <div class="flex flex-col md:flex-row gap-10 mt-30 justify-evenly mx-40 sm:mx-20">
+            <div class="space-y-3">
+                <p><b>Quick Links</b></p>
+                <p>Home <br></p>
+                <p>About Us </p>
+                <p>Products </p>
+                <p>Insurance </p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="space-y-3">
+                <p><b>Our Services</b></p>
+                <p>Life Insurance </p>
+                <p>Car Insurance </p>
+                <p>Health Insurance </p>
+                <p>House Insurance</p>
+            </div>
+            <div class="space-y-3">
+                <p><b>Help</b></p>
+                <p>FAQs</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="space-y-3">
+                <p class="text-2xl"> <b>Subscribe to our <br>newsletter
+                    </b></p>
+                <p>Email address</p>
+                <hr>
+            </div>
+        </div>
+        <p class="text-center my-20 text-gray-600">
+            © 2027 UIDesign.to - All rights reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
